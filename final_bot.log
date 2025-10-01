@@ -1,0 +1,4 @@
+2025-10-02 00:42:56,458 - FinalBot - INFO - Bot Initialized in SIMULATION MODE.
+2025-10-02 00:43:58,994 - FinalBot - INFO - Placing MARKET order for BTCUSDT.
+2025-10-02 00:44:24,494 - FinalBot - INFO - Starting TWAP strategy for ETHUSDT.
+2025-10-02 00:44:53,373 - FinalBot - INFO - Getting account balance.
