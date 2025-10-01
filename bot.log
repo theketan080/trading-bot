@@ -1,0 +1,33 @@
+2025-10-02 01:14:04,199 - INFO - client - Client initialized in SIMULATION mode.
+2025-10-02 01:14:04,200 - INFO - client - SIMULATING order placement with params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
+2025-10-02 01:14:04,200 - INFO - client - Order response: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001, 'orderId': 1759347844200, 'status': 'SIMULATED_NEW'}
+2025-10-02 01:14:47,499 - INFO - client - Client initialized in SIMULATION mode.
+2025-10-02 01:14:47,499 - INFO - client - SIMULATING order placement with params: {'symbol': 'ETHUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.01, 'price': 3000.0, 'timeInForce': 'GTC'}
+2025-10-02 01:14:47,499 - INFO - client - Order response: {'symbol': 'ETHUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.01, 'price': 3000.0, 'timeInForce': 'GTC', 'orderId': 1759347887499, 'status': 'SIMULATED_NEW'}
+2025-10-02 01:14:58,313 - INFO - client - Client initialized in SIMULATION mode.
+2025-10-02 01:14:58,313 - INFO - client - SIMULATING order placement with params: {'symbol': 'BNBUSDT', 'side': 'BUY', 'type': 'STOP_LIMIT', 'quantity': 0.1, 'price': 300.0, 'stopPrice': 299.0, 'timeInForce': 'GTC'}
+2025-10-02 01:14:58,313 - INFO - client - Order response: {'symbol': 'BNBUSDT', 'side': 'BUY', 'type': 'STOP_LIMIT', 'quantity': 0.1, 'price': 300.0, 'stopPrice': 299.0, 'timeInForce': 'GTC', 'orderId': 1759347898313, 'status': 'SIMULATED_NEW'}
+2025-10-02 01:20:58,446 - INFO - client - Client initialized in SIMULATION mode.
+2025-10-02 01:23:24,507 - INFO - client - Client initialized in SIMULATION mode.
+2025-10-02 01:24:05,585 - INFO - client - Simulating OCO order with params: {'symbol': 'BTCUSDT', 'side': 'SELL', 'quantity': 0.1, 'price': 61000.0, 'stopPrice': 59000.0, 'stopLimitPrice': 58950.0}
+2025-10-02 01:24:52,215 - INFO - client - Simulating TWAP strategy with params: {'symbol': 'ETHUSDT', 'side': 'BUY', 'quantity': 10.0, 'durationMinutes': 120}
+2025-10-02 01:25:14,223 - INFO - client - Simulating Grid strategy with params: {'symbol': 'SOLUSDT', 'upperPrice': 150.0, 'lowerPrice': 120.0, 'numGrids': 10, 'quantityPerGrid': 5.0}
+2025-10-02 01:42:42,270 - INFO - client - Client initialized in SIMULATION mode.
+2025-10-02 01:42:50,587 - INFO - client - Fetching Fear & Greed Index.
+2025-10-02 01:42:50,590 - ERROR - client - Fear_and_Greed_Index.csv not found in the root directory.
+2025-10-02 01:44:18,966 - INFO - client - Client initialized in SIMULATION mode.
+2025-10-02 01:44:20,777 - INFO - client - Fetching Fear & Greed Index.
+2025-10-02 01:44:20,806 - ERROR - client - Failed to read or parse Fear & Greed Index file: 'value_classification'
+2025-10-02 01:45:50,772 - INFO - client - Client initialized in SIMULATION mode.
+2025-10-02 01:45:52,197 - INFO - client - Fetching Fear & Greed Index.
+2025-10-02 01:45:52,208 - ERROR - client - Failed to read or parse Fear & Greed Index file: name 'Panel' is not defined
+2025-10-02 01:47:36,179 - INFO - client - Client initialized in SIMULATION mode.
+2025-10-02 01:47:37,803 - INFO - client - Fetching Fear & Greed Index.
+2025-10-02 01:49:12,356 - INFO - client - Client initialized in SIMULATION mode.
+2025-10-02 01:49:23,217 - INFO - client - Placing order with params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01}
+2025-10-02 01:49:42,301 - INFO - client - Placing order with params: {'symbol': 'ETHUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.05, 'price': 3100.0, 'timeInForce': 'GTC'}
+2025-10-02 01:50:00,938 - INFO - client - Placing order with params: {'symbol': 'BNBUSDT', 'side': 'BUY', 'type': 'STOP_LIMIT', 'quantity': 0.5, 'price': 306.0, 'stopPrice': 305.0, 'timeInForce': 'GTC'}
+2025-10-02 01:50:26,078 - INFO - client - Simulating OCO order with params: {'symbol': 'ADAUSDT', 'side': 'SELL', 'quantity': 150.0, 'price': 0.48, 'stopPrice': 0.42, 'stopLimitPrice': 0.41}
+2025-10-02 01:50:44,214 - INFO - client - Simulating TWAP strategy with params: {'symbol': 'SOLUSDT', 'side': 'BUY', 'quantity': 20.0, 'durationMinutes': 60}
+2025-10-02 01:51:25,846 - INFO - client - Simulating Grid strategy with params: {'symbol': 'XRPUSDT', 'upperPrice': 0.6, 'lowerPrice': 0.5, 'numGrids': 10, 'quantityPerGrid': 100.0}
+2025-10-02 01:51:33,246 - INFO - client - Fetching Fear & Greed Index.
